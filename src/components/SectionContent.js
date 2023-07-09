@@ -14,6 +14,9 @@ const SectionContent = (props) => {
             }
             <div className='subtitle'>{props.subtitle}</div>
             <div className='note'>{props.note}</div>
+            {props.price &&
+              <div>&#x20B9; {props.price}</div>
+            }
         </div>
     </div>
   )

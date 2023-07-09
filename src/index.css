@@ -20,6 +20,7 @@ body {
     color: var(--secColor1);
     max-width: 100%;
     overflow-x: hidden;
+    padding-bottom: 50px;
 }
 
 .header {
@@ -87,4 +88,12 @@ body {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+}
+
+.info-icon {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 35px;
+    height: 35px;
 }

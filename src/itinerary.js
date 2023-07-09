@@ -11,7 +11,8 @@ export const itinerary = {
                     time: '8:45 AM',
                     title: 'Train from Bangalore to Birur',
                     subtitle: 'Vishwamanav Exp (17326)',
-                    note: '08:45 AM - 12:08 AM'
+                    note: '08:45 AM - 12:08 AM',
+                    price: '360'
                 },
                 {
                     time: '12:30 PM',
@@ -20,7 +21,8 @@ export const itinerary = {
                 {
                     time: '1:00 PM',
                     title: 'Cab to Chikkamagaluru',
-                    note: '1:00 - 2:00'
+                    note: '1:00 - 2:00',
+                    price: '2000~'
                 },
                 {
                     time: '2:00 PM',
@@ -29,7 +31,8 @@ export const itinerary = {
                 },
                 {
                     time: '5:00 PM',
-                    title: 'Rent scooty'
+                    title: 'Rent scooty',
+                    price: '500/day'
                 },
                 {
                     time: '5:30 PM',
@@ -99,7 +102,7 @@ export const itinerary = {
                 },
                 {
                     time: '4:00 PM',
-                    title: 'Subset at Hirekolale lake',
+                    title: 'Sunset at Hirekolale lake',
                     imgLink: 'https://chikmagalurtourism.org.in/images//tourist-places/hirekolale-lake-chikmagalur/hirekolale-lake-chikmagalur-tourism-holidays-closed-on-timings.jpg'
                 },
                 {
@@ -119,7 +122,8 @@ export const itinerary = {
                 {
                     time: '11:00 AM',
                     title: 'Cab to Birur',
-                    note: '11:00 - 12:00'
+                    note: '11:00 - 12:00',
+                    price: '2000~'
                 },
                 {
                     time: '12:00 PM',
@@ -129,8 +133,38 @@ export const itinerary = {
                     time: '1:11 PM',
                     title: 'Train from Birur to Bangalore',
                     subtitle: 'Vishwamanav Exp (17325)',
-                    note: '13:11 - 17:45'
+                    note: '13:11 - 17:45',
+                    price: '360'
                 }
+            ]
+        }
+    ],
+    moreInfo: [
+        {
+            title: 'Hotel Options',
+            data: [
+                {
+                    title: 'Honeydewwz Exoticaa',
+                    link: 'https://www.agoda.com/en-gb/honeydewwz-exoticaa/hotel/chikmagalur-in.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1833981&numberOfBedrooms=&familyMode=false&adults=3&children=0&rooms=1&maxRooms=0&checkIn=2023-08-18&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&isCityHaveAsq=false&tspTypes=1&los=3&searchrequestid=edc479db-df93-42d2-826e-549b635efa7f',
+                    subtitle: 'Room Type: Junior Suite with Mountain View'
+                },
+                {
+                    title: 'The Blossom Resort',
+                    link: 'https://www.agoda.com/en-gb/the-blossom-resort/hotel/hassan-in.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1833981&numberOfBedrooms=&familyMode=false&adults=3&children=0&rooms=1&maxRooms=0&checkIn=2023-08-18&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=3&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&isCityHaveAsq=false&tspTypes=4&los=3&searchrequestid=edc479db-df93-42d2-826e-549b635efa7f',
+                    subtitle: 'Room Type: Hill View Room or Terrace King' 
+                }
+            ]
+        },
+        {
+            title: 'Places to Eat',
+            data: [
+
+            ]
+        },
+        {
+            title: '2 Wheeler Rentals',
+            data: [
+                
             ]
         }
     ]
