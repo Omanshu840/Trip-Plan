@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Trip-Plan/static/css/main.223a96f2.css",
-    "main.js": "/Trip-Plan/static/js/main.848e016d.js",
+    "main.js": "/Trip-Plan/static/js/main.8144205e.js",
     "index.html": "/Trip-Plan/index.html",
     "main.223a96f2.css.map": "/Trip-Plan/static/css/main.223a96f2.css.map",
-    "main.848e016d.js.map": "/Trip-Plan/static/js/main.848e016d.js.map"
+    "main.8144205e.js.map": "/Trip-Plan/static/js/main.8144205e.js.map"
   },
   "entrypoints": [
     "static/css/main.223a96f2.css",
-    "static/js/main.848e016d.js"
+    "static/js/main.8144205e.js"
   ]
 }
