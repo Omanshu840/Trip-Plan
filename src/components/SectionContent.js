@@ -12,7 +12,9 @@ const SectionContent = (props) => {
             {props.imgLink &&
               <img src={props.imgLink} style={{width: '100%'}}alt='img'/>
             }
-            <div className='subtitle'>{props.subtitle}</div>
+            {(props.id === "hotel") ? <div onClick={props.openHotelDetails} style={{textDecoration: 'underline'}}>{props.subtitle}</div> : <div className='subtitle'>{props.subtitle}</div>}
+            <div className='para'>{props.para1}</div>
+            <div className='para'>{props.para2}</div>
             <div className='note'>{props.note}</div>
             {props.price &&
               <div>&#x20B9; {props.price}</div>
