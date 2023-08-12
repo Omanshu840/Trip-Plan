@@ -52,6 +52,23 @@ const App = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [activeDay, handleScroll])
 
+  useEffect(() => {
+    if(itinerary) {
+      const now = new Date().getTime();
+      const countDownDate = new Date(itinerary.startTime).getTime();
+      const distance = now - countDownDate;
+
+      const day = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const dayElement = document.getElementById(`day-plan-${day}`);
+      if(dayElement) {
+        dayElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        })
+      }
+    }
+  }, [itinerary])
+
   if(!itinerary) {
     return <></>
   }

@@ -29,6 +29,7 @@ const Header = (props) => {
               setCountDown(null)
             }
           }, 1000);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (

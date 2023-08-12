@@ -3,7 +3,7 @@ import SectionContent from './SectionContent'
 
 const DayPlan = (props) => {
   return (
-    <div className='day-plan'>
+    <div id={`day-plan-${props.index}`} className='day-plan'>
         <div id={`day-header-${props.index}`}className='day-header p-3'>
             <h1 className='title'>{props.title}</h1>
             <h2 className='subtitle'>{props.subtitle}</h2>
