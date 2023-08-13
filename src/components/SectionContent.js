@@ -8,7 +8,7 @@ const SectionContent = (props) => {
         <VerticalLine height={20}/>
         <TimeStamp time={props.time}/>
         <div className='section-card'>
-            <div className='title'>{props.title}</div>
+            <div className='title' onClick={props.link ? () => window.open(props.link, "_blank") : ()=>{}}>{props.title}</div>
             {props.imgLink &&
               <img src={props.imgLink} style={{width: '100%'}}alt='img'/>
             }
