@@ -8,7 +8,7 @@ const DayPlan = (props) => {
             <h1 className='title'>{props.title}</h1>
             <h2 className='subtitle'>{props.subtitle}</h2>
         </div>
-        <div className='py-3 px-3'>
+        <div className='py-3 px-3' style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         {props.dayPlan.map((activity) => {
             return (
                 <SectionContent

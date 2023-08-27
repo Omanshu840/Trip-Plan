@@ -4,7 +4,7 @@ import VerticalLine from './VerticalLine'
 
 const SectionContent = (props) => {
   return (
-    <div className='section-content'>
+    <div className='section-content' style={{width: '100%', maxWidth: '500px'}}>
         <VerticalLine height={20}/>
         <TimeStamp time={props.time}/>
         <div className='section-card'>
